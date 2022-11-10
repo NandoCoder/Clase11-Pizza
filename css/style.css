@@ -8,6 +8,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
 }
 
 header {
@@ -31,13 +34,6 @@ a {
 }
 a:hover {
   color: goldenrod;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #e5e5e5;
-  min-height: 100vh;
 }
 
 .flex-container {
